@@ -2,7 +2,7 @@
 
 Welcome to my final year machine learning project! This system predicts outlet sales using a hybrid of **RandomForest** and **XGBoost** models with a clean and interactive Gradio interface.
 
-🎥 **Watch Demo Video:** [Click here to view on YouTube](https://youtu.be/TnU7E)
+🎥 **Watch Demo Video:** [Click here to view on YouTube](https://youtu.be/IQveurTnU7E)
 
 ## 🚀 Features
 
