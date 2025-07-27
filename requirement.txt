@@ -1,0 +1,8 @@
+gradio==4.15.0
+joblib
+xgboost
+fpdf
+pandas
+numpy
+matplotlib
+openpyxl
