@@ -1,35 +1,33 @@
+
 # 📊 Sales Prediction with Hybrid Model (RandomForest + XGBoost)
 
-Welcome to my final year machine learning project! This system predicts outlet sales using a hybrid of **RandomForest** and **XGBoost** models with a clean and interactive Gradio interface.
+This is my  machine learning project, focused on predicting outlet sales using a hybrid ensemble model combining RandomForest and XGBoost. The system features a real-time user interface built with Gradio and allows users to export results in PDF, Excel, and CSV formats.
 
-🎥 **Watch Demo Video:** [Click here to view on YouTube](https://youtu.be/IQveurTnU7E)
+🎥 Demo Video: https://www.youtube.com/watch?v=IQveurTnU7E  
 
-## 🚀 Features
+## 🚀 Key Features
 
-- 🤖 **Hybrid ML Model:** Combines the power of RandomForest and XGBoost
-- 🧾 **Input Fields:**
-  - Outlet ID
-  - Establishment Year
-  - Outlet_Age_Sales_Interaction
-- 📊 **Real-time Prediction Output** with:
-  - Predicted Sales
-  - Pie Chart visualization
-- 📂 **Export Options:**
-  - Download results in **PDF**, **Excel (XLSX)**, or **CSV** format
-- 💻 **Built with:** Python, Scikit-learn, XGBoost, Gradio, Matplotlib, Pandas, FPDF
+- Real-time sales prediction using hybrid ML model  
+- Input fields: Outlet ID, Establishment Year, Outlet_Age_Sales_Interaction  
+- Instant prediction output with pie chart  
+- Export options: PDF, Excel (XLSX), and CSV  
+- Built with Python, Scikit-learn, XGBoost, Gradio, Matplotlib, FPDF
+
+
+## 📈 Model Performance
+
+✅ The hybrid model achieved an **R² score of 1.00** on the test set — indicating a perfect fit on the prediction task.
 
 
 ## 📁 Project Files
 
-- `app.py` – Main app file for Gradio interface  
-- `rf_model.pkl` – Trained RandomForest model  
-- `xgb_model.pkl` – Trained XGBoost model  
-- `requirements.txt` – Required Python libraries  
-- `README.md` – Project documentation  
+- app.py — Gradio interface code  
+- rf_model.pkl — RandomForest model  
+- xgb_model.pkl — XGBoost model  
+- requirements.txt — Python dependencies  
+- README.md — Project summary
 
 
-## 🧪 Run It Locally
 
-bash
-pip install -r requirements.txt
-python app.py
+
+
